@@ -24,13 +24,13 @@ public class JpaMain {
             //전체결과 조회List<Member> result = em.createQuery("select m from Member as m", Member.class).setFirstResults(1).setMaxResults(10).getResultList();
 
             //비영속
-            Member member = new Member();
-            member.setId(1L);
-            member.setName("HelloA");
+//            Member member = new Member();
+//            member.setId(1L);
+//            member.setName("HelloA");
 
             //영속
-            em.persist(member);
-
+//            em.persist(member);
+//
             tx.commit();
         }catch (Exception e){
             tx.rollback();
