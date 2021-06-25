@@ -28,6 +28,7 @@ public class JpaMain {
 //            member.setId(1L);
 //            member.setName("HelloA");
 
+
             //영속
 //            em.persist(member);
 //
